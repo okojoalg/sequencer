@@ -75,23 +75,23 @@ Download and extract ImageNet images. The directory structure should be as follo
 ### Traning
 Command line for training Sequencer models on ImageNet from scratch.
 ```
-
+./distributed_train.sh 8 /path/to/imagenet --model sequencer2d_s -b 256 -j 8 --opt adamw --epochs 300 --sched cosine --native-amp --img-size 224 --drop-path 0.1 --lr 2e-3 --weight-decay 0.05 --remode pixel --reprob 0.25 --aa rand-m9-mstd0.5-inc1 --smoothing 0.1 --mixup 0.8 --cutmix 1.0 --warmup-lr 1e-6 --warmup-epochs 20
 ```
 
 Command line for fine-tuning a pre-trained model at higher resolution.
 ```
-
+./distributed_train.sh 8 /path/to/imagenet --model sequencer2d_l --pretrained -b 64 -j 8 --opt adamw --epochs 30 --sched cosine --native-amp --input-size 3 392 392 --img-size 392 --crop-pct 1.0 --drop-path 0.4 --lr 5e-5 --weight-decay 1e-8 --remode pixel --reprob 0.25 --aa rand-m9-mstd0.5-inc1 --smoothing 0.1 --mixup 0.8 --cutmix 1.0 --warmup-epochs 0 --cooldown-epochs 0
 ```
 
 Command line for fine-tuning a pre-trained model on a transfer learning dataset.
 ```
-
+./distributed_train.sh 4 /path/to/cifar10 --model sequencer2d_s -b 128 -j 4 --num-classes 10 --dataset torch/cifar10 --pretrained --opt adamw --epochs 200 --sched cosine --native-amp --img-size 224 --clip-grad 1 --drop-path 0.1 --lr 0.0001 --weight-decay 1e-4 --remode pixel --aa rand-m9-mstd0.5-inc1 --smoothing 0.1 --mixup 0.8 --cutmix 1.0 --warmup-lr 1e-6 --warmup-epochs 5
 ```
 
 ### Validation
 To evaluate our Sequencer models, run:
 ```
-
+python validate.py /path/to/imagenet --model sequencer2d_s -b 16 --input-size 3 224 224 --amp
 ```
 
 ## Reference
