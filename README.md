@@ -18,15 +18,15 @@ This repository contains implementation for Sequencer.
 
 ## Schematic diagrams
 
-The overall architecture of Sequencer2D is similar to the typical hierarchical ViT and Visual MLP. It uses Sequencer2D blocks instead of Transformer blocks.
+The overall architecture of Sequencer2D is similar to the typical hierarchical ViT and Visual MLP. It uses Sequencer2D blocks instead of Transformer blocks:
 
 ![Sequencer](img/Sequencer.png)
 
-Sequencer2D block replaces the Transformer's self-attention layer with an LSTM-based layer like BiLSTM2D layer.
+Sequencer2D block replaces the Transformer's self-attention layer with an LSTM-based layer like BiLSTM2D layer:
 
 ![Sequencer2D](img/Sequencer2D.png)
 
-BiLSTM2D includes a vertical LSTM and a horizontal LSTM.
+BiLSTM2D includes a vertical LSTM and a horizontal LSTM:
 
 ![BiLSTM2D](img/BiLSTM2D.png)
 
