@@ -20,15 +20,19 @@ This repository contains implementation for Sequencer.
 
 The overall architecture of Sequencer2D is similar to the typical hierarchical ViT and Visual MLP. It uses Sequencer2D blocks instead of Transformer blocks:
 
-![Sequencer](img/Sequencer.png)
+![Sequencer]
 
 Sequencer2D block replaces the Transformer's self-attention layer with an LSTM-based layer like BiLSTM2D layer:
 
-![Sequencer2D](img/Sequencer2D.png)
+![Sequencer2D]
 
 BiLSTM2D includes a vertical LSTM and a horizontal LSTM:
 
-![BiLSTM2D](img/BiLSTM2D.png)
+![BiLSTM2D]
+
+[Sequencer]: img/Sequencer.png
+[Sequencer2D]: img/Sequencer2D.png
+[BiLSTM2D]: img/BiLSTM2D.png
 
 ## Model Zoo
 We provide our Sequencer models pretrained on ImageNet-1K:
@@ -97,5 +101,12 @@ You may want to cite:
 ```
 
 ## Acknowledgment
-This implementation is based on the following codebase. We thank the authors for their brilliant work.
-* [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models)
+This implementation is based on [pytorch-image-models](https://github.com/rwightman/pytorch-image-models) by Ross Wightman. We thank for his brilliant work.
+
+|   |   |
+|:--|:-:|
+|  We thank Graduate School of Artificial Intelligence and Science, Rikkyo University (Rikkyo AI) which supports us with computational resources, facilities, and others. |  ![logo-rikkyo-ai] |
+|  AnyTech Co. Ltd. provided valuable comments on the early versions and encouragement. We thank them for their cooperation. In particular, We thank Atsushi Fukuda for organizing discussion opportunities. |  ![logo-anytech] |
+
+[logo-rikkyo-ai]: img/RIKKYOAI_main.png "Logo of Rikkyo AI"
+[logo-anytech]: img/anytech.svg "Logo of AnyTech"
