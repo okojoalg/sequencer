@@ -31,9 +31,9 @@ BiLSTM2D includes a vertical LSTM and a horizontal LSTM:
 
 ![BiLSTM2D]
 
-[Sequencer]: img/Sequencer.png
-[Sequencer2D]: img/Sequencer2D.png
-[BiLSTM2D]: img/BiLSTM2D.png
+[Sequencer]: img/Sequencer.jpg
+[Sequencer2D]: img/Sequencer2D.jpg
+[BiLSTM2D]: img/BiLSTM2D.jpg
 
 ## Model Zoo
 We provide our Sequencer models pretrained on ImageNet-1K:
