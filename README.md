@@ -1,7 +1,7 @@
 **Sequencer**: Deep LSTM for Image Classification
 ========
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg?style=plastic)](https://arxiv.org/abs/xxxx.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2205.01972-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2205.01972)
 [![Support Ukraine](https://img.shields.io/badge/Support-Ukraine-FFD500?style=plastic&labelColor=005BBB)](https://opensource.fb.com/support-ukraine)
 
 Created by
