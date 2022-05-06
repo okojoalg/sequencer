@@ -107,7 +107,7 @@ This implementation is based on [pytorch-image-models](https://github.com/rwight
 |   |   |
 |:--|:-:|
 |  We thank [Graduate School of Artificial Intelligence and Science, Rikkyo University (Rikkyo AI)](https://ai.rikkyo.ac.jp) which supports us with computational resources, facilities, and others. |  ![logo-rikkyo-ai] |
-|  [AnyTech Co. Ltd.](https://anytech.co.jp) provided valuable comments on the early versions and encouragement. We thank them for their cooperation. In particular, We thank Atsushi Fukuda for organizing discussion opportunities. |  ![logo-anytech] |
+|  [AnyTech Co. Ltd.](https://anytech.co.jp) provided valuable comments on the early versions and encouragement. We thank them for their cooperation. In particular, We thank [Atsushi Fukuda](https://github.com/fukumame) for organizing discussion opportunities. |  ![logo-anytech] |
 
 [logo-rikkyo-ai]: img/RIKKYOAI_main.png "Logo of Rikkyo AI"
 [logo-anytech]: img/anytech.svg "Logo of AnyTech"
