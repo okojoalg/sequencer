@@ -98,7 +98,12 @@ python validate.py /path/to/imagenet --model sequencer2d_s -b 16 --input-size 3 
 ## Reference
 You may want to cite:
 ```
-
+@article{tatsunami2022sequencer,
+  title={Sequencer: Deep LSTM for Image Classification},
+  author={Tatsunami, Yuki and Taki, Masato},
+  journal={arXiv preprint arXiv:2205.01972},
+  year={2022}
+}
 ```
 
 ## Acknowledgment
