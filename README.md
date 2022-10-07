@@ -1,11 +1,12 @@
-**Sequencer**: Deep LSTM for Image Classification
+**[NeurIPS 2022] Sequencer**: Deep LSTM for Image Classification
 ========
 
+[![NeurIPS 2022](https://img.shields.io/badge/NeuIPS-2022-373737.svg?style=plastic&labelColor=5779eb)](https://nips.cc/Conferences/2022/Schedule?showEvent=55158)
 [![arXiv](https://img.shields.io/badge/arXiv-2205.01972-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2205.01972)
 [![Support Ukraine](https://img.shields.io/badge/Support-Ukraine-FFD500?style=plastic&labelColor=005BBB)](https://opensource.fb.com/support-ukraine)
 
 Created by
-* [Yuki Tatsunami](https://sites.google.com/view/yuki-tatsunami) 
+* [Yuki Tatsunami](https://okojoalg.github.io/) 
   * [![Rikkyo University](https://img.shields.io/badge/Rikkyo-University-FFFFFF?style=plastic&labelColor=582780)](https://www.rikkyo.ac.jp)
   * [![AnyTech](https://img.shields.io/badge/AnyTech-Co.%20Ltd.-18C4AA?style=plastic&labelColor=254BB1)](https://anytech.co.jp/)
 * [Masato Taki](https://scholar.google.com/citations?hl=en&user=3nMhvfgAAAAJ)
@@ -101,7 +102,7 @@ You may want to cite:
 @article{tatsunami2022sequencer,
   title={Sequencer: Deep LSTM for Image Classification},
   author={Tatsunami, Yuki and Taki, Masato},
-  journal={arXiv preprint arXiv:2205.01972},
+  journal={Advances in Neural Information Processing Systems},
   year={2022}
 }
 ```
